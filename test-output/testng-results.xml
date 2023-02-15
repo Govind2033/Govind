@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-15T19:15:36 IST" name="Default suite" finished-at="2023-02-15T19:16:27 IST" duration-ms="51413">
+    <groups>
+    </groups>
+    <test started-at="2023-02-15T19:15:36 IST" name="Default test" finished-at="2023-02-15T19:16:27 IST" duration-ms="51413">
+      <class name="com.webshop.tests.Tests">
+        <test-method is-config="true" signature="openAppAndInitPages()[pri:0, instance:com.webshop.tests.Tests@7a419da4]" started-at="2023-02-15T19:15:37 IST" name="openAppAndInitPages" finished-at="2023-02-15T19:15:43 IST" duration-ms="6359" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppAndInitPages -->
+        <test-method signature="checkoutProduct(java.util.LinkedHashMap)[pri:0, instance:com.webshop.tests.Tests@7a419da4]" started-at="2023-02-15T19:15:43 IST" name="checkoutProduct" data-provider="getTC1Data" finished-at="2023-02-15T19:16:27 IST" duration-ms="43681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ProductAddMsg=The product has been added to your shopping cart, CODSuccessmsg=You will pay by COD, ProductProcessSucessMessage=Your order has been successfully processed!}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutProduct -->
+      </class> <!-- com.webshop.tests.Tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
