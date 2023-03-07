@@ -22,10 +22,8 @@ public class Tests extends BaseClass{
 		cartpage.validateSubTotal();
 		cartpage.checkOut();
 		
-		
-		
 		billingaddresspage.processCheckout(map.get("CODSuccessmsg"),map.get("ProductProcessSucessMessage"));
-		cartpage.removeItemsFromCart();
+		//cartpage.removeItemsFromCart();
 		homepage.logOutButton.click();
 	}
 	

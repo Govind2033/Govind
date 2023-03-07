@@ -67,7 +67,8 @@ public class CartPage1 extends BaseClass {
 	 * 
 	 */
 	public void validateSubTotal() throws InterruptedException {
-		Thread.sleep(3000);
+		//Thread.sleep(3000)
+		
 		shoppingCartlink.click();
 		String price=unitPriceCol.getText();
 		double unitprc=Double.parseDouble(price);

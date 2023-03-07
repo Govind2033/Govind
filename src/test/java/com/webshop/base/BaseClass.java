@@ -11,6 +11,7 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import com.webshop.pages.objects.BillingAddressPage;
@@ -115,7 +116,7 @@ public class BaseClass {
 		}
 		System.out.println(cols);
 		
-		int rows=0;
+		int rows=0; 
 		int dataStartRow=tcStartRow+2;
 		
 		while(!getCellValue(sheetName, dataStartRow+rows, 0).equals("N")) {
